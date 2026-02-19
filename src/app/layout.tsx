@@ -5,9 +5,23 @@ import Footer from "@/components/footer";
 
 
 export const metadata = {
-  title: "Fans of Africa",
-  description: "Impact projects, volunteering, and community support.",
+  metadataBase: new URL("https://fansofafrica.com"),
+  title: {
+    default: "Fans of Africa",
+    template: "%s | Fans of Africa",
+  },
+  description:
+    "Fans of Africa is a Christian outreach supporting education, teacher training, and infrastructure development in Ghana.",
+  openGraph: {
+    title: "Fans of Africa",
+    description:
+      "Supporting education and communities in Ghana through partnership and outreach.",
+    url: "https://fansofafrica.com",
+    siteName: "Fans of Africa",
+    type: "website",
+  },
 };
+
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
   children,

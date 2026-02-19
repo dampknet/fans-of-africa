@@ -104,7 +104,7 @@ export default function AboutPage() {
               name="Laura Orrell"
               role="President"
               reverse={false}
-              text={`Laura’s first love is music, and she holds a Bachelor’s degree in Music Therapy. It was the desire to teach music that led her to her first mission trip in Ghana with her husband Mike, and the offering of Pastor John’s church as a music school which led her to our Ghanaian partners, John and Mercy Boateng. Laura also holds a Master’s degree in Special Education and a Master’s degree in Education Administration. Laura is a certified reading therapist with the phonographic method. While in Ghana, Laura has had the opportunity to tour many private and government schools, and to collaborate with students, teachers, and administrators. Through these tours, the non-profit Fans of Africa was conceptualized. Most of the classrooms visited had no electricity, fans, water, or lights. Laura travels to Ghana annually, and it is through these trips that new partnerships and relationships are developed. One of Laura’s favorite Bible verses comes from 1 Peter 4:10; “Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in various forms.”`}
+              text={`Laura’s first love is music, and she holds a Bachelor’s degree in Music Therapy. It was the desire to teach music that led her to her first mission trip in Ghana with her husband Mike in 2015. Mike and Laura’s first contacts were made during that trip, and upon returning home they decided to begin their own non-profit, which became Fans of Africa. Laura also holds a Master’s degree in Special Education and a Master’s degree in Education Administration, and is a certified reading therapist. While in Ghana, Laura has had the opportunity to tour many private and government schools, and to collaborate with students, teachers, and administrators. Laura and Mike try to travel to Ghana annually, and it is through these trips that new partnerships and relationships are developed. One of Laura’s favorite Bible verses comes from 1 Peter 4:10; “Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in various forms.”`}
             />
 
             <Person
@@ -137,6 +137,15 @@ export default function AboutPage() {
 
 Favorite scripture: 1st Corinthians 4:7 GNT “Who made you superior to others? Didn’t God give you everything you have? Well, then, how can you boast, as if what you have were not a gift?”`}
             />
+
+             <Person
+              img="/team/samuel.jpg"
+              name="Samuel Essandoh"
+              role="Coordinator"
+              reverse
+              text={`Samuel takes creativity to heart and makes sure it reflects in all aspects of his life. he is ambitious and dedicated to learning anything that gives him the safe space to create and improvise if need be. Some of these things are; playing piano where he can express himself and directing a choir where he can train singers to sing soothing songs. Samuel has a bachelor’s degree in integrated arts in industry at the Kwame Nkrumah University of Science and Technology of which he majored in metal engineering. Being a computer lover he went on to take a diploma course in computer aided design and manufacturing. Initially, Fans of Africa involved Samuel as their host for the 2024, 2025 and 2026 visit to Ghana. During the visit, Samuel used his skilled computer abilities to make things easy and modernized. He coordinates the projects by mediating project deals between Fans of Africa and local workers. He worked directly under Mike to get projects done. As the coordinator, Samuel does everything to make sure that our stay is pleasant and successful right from the gates of arrival to the gates of departure.`}
+            />
+
           </div>
 
           {/* Teaching Interventionists */}
@@ -190,6 +199,7 @@ Isaac believes that with the right instructional approach and encouragement, eve
               reverse={false}
               text={`Joseph Baidoo is a passionate and dedicated educator with nine years of teaching experience at Kandit Standard School. He holds a Bachelor of Education (B.Ed.) degree from the University of Cape Coast (UCC), where he specialized in English Language and Twi (Akan). Joseph is a trained Phono-Graphix instructor and a reading specialist with Fans of Africa, focusing on supporting learners, particularly those who struggle with reading and spelling, to build confidence and strong foundational skills. His teaching philosophy is that every child can learn when given the right support, encouragement, and teaching approach. He strives to create a classroom environment where learners feel valued, motivated, and empowered to achieve academic success.`}
             />
+
           </div>
         </div>
       </Section>

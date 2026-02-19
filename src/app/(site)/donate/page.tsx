@@ -4,7 +4,7 @@ import Button from "@/components/ui/button";
 import Link from "next/link";
 
 const PAYPAL_LINK =
-  "https://www.paypal.com/donate?token=LAYb-h2HS5q4MfCFDWbtzOaE-bylCO987GKY9-T53FAF5ilpXEN6hpDBAmglc-6jOZDUcugsdU4qJBP2";
+  "https://www.paypal.com/donate?hosted_button_id=GV4A6HAQ6AZ6S";
 
 export default function DonatePage() {
   return (
@@ -17,7 +17,7 @@ export default function DonatePage() {
         <div className="mx-auto max-w-3xl text-center text-neutral-600 text-sm sm:text-base">
           Every dollar given supports real work on the ground — classroom
           construction, teacher training, scholarships, infrastructure, and
-          long-term partnerships.
+          long-term partnerships.&quot;501(c)3&quot;
         </div>
       </Section>
 
