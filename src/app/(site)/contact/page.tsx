@@ -175,8 +175,20 @@ export default function ContactPage() {
                 hint="Fastest way to reach us"
               />
               <ContactCard
-                title="Phone"
-                value="575-937-7101"
+                title="Conatct"
+                value="Fans of Africa, Inc., a US 501(c)3
+
+                      Laura Orrell, President
+
+                      Mike Leinneweber, Director of Outreach Services
+
+                      Jerry Graeber, Treasurer
+
+                      Emmanuel Agyapong, Teaching Staff
+
+                      Johnson Antwi, Board Member
+
+                      575-937-7101"
                 hint="Mon–Fri, 9am–5pm"
               />
               <ContactCard
