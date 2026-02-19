@@ -137,31 +137,34 @@ export default function HomePage() {
             <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">
               Who We Are
             </h2>
-            <p className="mt-2 text-sm text-neutral-700 sm:text-base">
-              Fans of Africa is a non-profit, Christian organization designed to
-              support and build infrastructure in Western Africa — focusing on
-              education, medical care, and economic empowerment.
+           <p className="mt-2 text-sm text-neutral-700 sm:text-base">
+              Fans of Africa is a non-profit, Christian organization committed to
+              strengthening communities through education, teacher training, and
+              sustainable school development. We partner with local leaders in Ghana
+              to expand classrooms, equip teachers, and create long-term impact for
+              students and families.
             </p>
           </div>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <Card
               title="Education Support"
-              desc="Supplies, mentorship, and learning resources for students."
+              desc="Classroom expansion, learning materials, and student resources."
             />
             <Card
-              title="Medical Care"
-              desc="Support initiatives that improve access and wellbeing."
+              title="Teacher Training"
+              desc="Practical training programs that equip and empower local educators."
             />
             <Card
-              title="Economic Empowerment"
-              desc="Partner-led programs that strengthen local capacity."
+              title="Infrastructure Development"
+              desc="School construction, facility upgrades, and long-term improvements."
             />
             <Card
-              title="Volunteer Program"
-              desc="Structured volunteering with clear roles and guidance."
+              title="Volunteer Engagement"
+              desc="Structured mission trips and partnerships that build lasting relationships."
             />
           </div>
+
         </div>
       </section>
 
