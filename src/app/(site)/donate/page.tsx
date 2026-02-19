@@ -4,7 +4,7 @@ import Button from "@/components/ui/button";
 import Link from "next/link";
 
 const PAYPAL_LINK =
-  "https://www.paypal.com/donate?hosted_button_id=GV4A6HAQ6AZ6S";
+  "https://www.paypal.com/donate?hosted_button_id= CL4Y7MPAV7CHS";
 
 export default function DonatePage() {
   return (
