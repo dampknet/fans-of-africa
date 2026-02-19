@@ -196,7 +196,7 @@ export default function ContactPage() {
               title="Contact"
               items={[
                 "Fans of Africa, Inc., a US 501(c)3",
-                "Laura Orrell, President",
+                "Laura Orrell — President",
                 "Mike Leinneweber — Director of Outreach Services",
                 "Jerry Graeber — Treasurer",
                 "Emmanuel Agyapong — Teaching Staff",
