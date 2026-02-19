@@ -167,7 +167,9 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* SIDE CARDS */}
+           {/* SIDE CARDS */}
+          <div className="space-y-4">
+            {/* Top row: Email + Socials */}
             <div className="grid gap-4 sm:grid-cols-2">
               <ContactCard
                 title="Email"
@@ -175,34 +177,36 @@ export default function ContactPage() {
                 hint="Fastest way to reach us"
               />
 
-
-              <ContactCard
-                title="Location"
-                items={["5306 26th Street, Lubbock Texas 79407"]}
-                hint="Serving communities with local partners"
-                wide
-              />
-
               <ContactCard
                 title="Socials"
                 items={["@fansofafrica"]}
                 hint="Follow and share stories"
-                wide
-              />
-               <ContactCard
-                title="Contact"
-                items={[
-                  "Laura Orrell, President",
-                  "Fans of Africa, Inc., a US 501(c)3",
-                  "Mike Leinneweber — Director of Outreach Services",
-                  "Jerry Graeber — Treasurer",
-                  "Emmanuel Agyapong — Teaching Staff",
-                  "Johnson Antwi — Board Member",
-                  "575-937-7101",
-                ]}
-                hint="Mon–Fri, 9am–5pm"
               />
             </div>
+
+            {/* Location full width */}
+            <ContactCard
+              title="Location"
+              items={["5306 26th Street, Lubbock Texas 79407"]}
+              hint="Serving communities with local partners"
+            />
+
+            {/* Contact full width (this is the big one) */}
+            <ContactCard
+              title="Contact"
+              items={[
+                "Laura Orrell, President",
+                "Fans of Africa, Inc., a US 501(c)3",
+                "Mike Leinneweber — Director of Outreach Services",
+                "Jerry Graeber — Treasurer",
+                "Emmanuel Agyapong — Teaching Staff",
+                "Johnson Antwi — Board Member",
+                "575-937-7101",
+              ]}
+              hint="Mon–Fri, 9am–5pm"
+            />
+          </div>
+
           </div>
         </div>
       </section>
