@@ -142,7 +142,7 @@ Favorite scripture: 1st Corinthians 4:7 GNT “Who made you superior to others? 
               img="/team/samuel.jpg"
               name="Samuel Essandoh"
               role="Coordinator"
-              reverse
+              reverse={false}
               text={`Samuel takes creativity to heart and makes sure it reflects in all aspects of his life. he is ambitious and dedicated to learning anything that gives him the safe space to create and improvise if need be. Some of these things are; playing piano where he can express himself and directing a choir where he can train singers to sing soothing songs. Samuel has a bachelor’s degree in integrated arts in industry at the Kwame Nkrumah University of Science and Technology of which he majored in metal engineering. Being a computer lover he went on to take a diploma course in computer aided design and manufacturing. Initially, Fans of Africa involved Samuel as their host for the 2024, 2025 and 2026 visit to Ghana. During the visit, Samuel used his skilled computer abilities to make things easy and modernized. He coordinates the projects by mediating project deals between Fans of Africa and local workers. He worked directly under Mike to get projects done. As the coordinator, Samuel does everything to make sure that our stay is pleasant and successful right from the gates of arrival to the gates of departure.`}
             />
 
