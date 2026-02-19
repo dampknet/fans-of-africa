@@ -36,7 +36,7 @@ export default function HomePage() {
               <p className="mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
                 Fans of Africa is a non-profit, Christian organization supporting
                 education, medical care, and economic empowerment across Western
-                Africa — with clear updates and real outcomes. ID number 81-3016586
+                Africa — with clear updates and real outcomes.
               </p>
 
               {/* Keep it clean: 2 CTAs max */}
