@@ -211,10 +211,22 @@ const PROJECTS_TRIP5_2024 = [
       "Trip 5 (2024) — First time to SB, then Bibiani and Kumasi. Before-and-after progress as projects moved forward with local support.",
   },
   {
+    src: "/projects/IMG_1351.jpeg",
+    alt: "Trip 5 (2024) — school/community scene",
+    caption:
+      "Before Renovations.",
+  },
+  {
     src: "/projects/Grace’s new addition recognizing our work..jpeg",
     alt: "Trip 5 (2024) — recognition addition",
     caption:
       " Kandit school with the finished addition.",
+  },
+   {
+    src: "/projects/WhatsApp Image 2024-10-10 at 09.12.55.jpeg",
+    alt: "Trip 5 (2024) — trip moment",
+    caption:
+      " the finished addition to Kandit",
   },
   {
     src: "/projects/Michael Mokarzel and our Kumasi hosts.jpeg",
@@ -234,12 +246,7 @@ const PROJECTS_TRIP5_2024 = [
     caption:
       "Another snapshot from the trip: serving, learning, and building together.",
   },
-  {
-    src: "/projects/WhatsApp Image 2024-10-10 at 09.12.55.jpeg",
-    alt: "Trip 5 (2024) — trip moment",
-    caption:
-      " the finished addition to Kandit",
-  },
+  
   {
     src: "/projects/WhatsApp Image 2024-10-10 at 10.14.03.jpeg",
     alt: "Trip 5 (2024) — trip moment",
@@ -251,12 +258,6 @@ const PROJECTS_TRIP5_2024 = [
     alt: "Trip 5 (2024) — continued story moment",
     caption:
       "A meaningful follow-up moment connected to the ongoing story and impact.",
-  },
-  {
-    src: "/projects/IMG_1351.jpeg",
-    alt: "Trip 5 (2024) — school/community scene",
-    caption:
-      "Supporting school life and the community around it.",
   },
   {
     src: "/projects/IMG_8675.jpeg",
