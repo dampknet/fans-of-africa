@@ -208,13 +208,19 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/trip5.jpeg",
     alt: "Trip 5 (2024) — first time to Senya Beraku, then Bibiani and Kumasi",
     caption:
-      "Trip 5 (2024) — First time to SB, then Bibiani and Kumasi. Before-and-after progress as projects moved forward with local support.",
+      "Trip 5 (2024) — First time to Senya Beraku, then Bibiani and Kumasi. Before-and-after progress as projects moved forward with local support.",
   },
   {
     src: "/projects/IMG_1351.jpeg",
     alt: "Trip 5 (2024) — school/community scene",
     caption:
       "Before Renovations.",
+  },
+  {
+    src: "/projects/WhatsApp Image 2024-10-10 at 10.14.03.jpeg",
+    alt: "Trip 5 (2024) — trip moment",
+    caption:
+      " The addition to Mt Moriah academy in Kumasi. ",
   },
   {
     src: "/projects/Grace’s new addition recognizing our work..jpeg",
@@ -246,13 +252,6 @@ const PROJECTS_TRIP5_2024 = [
     caption:
       "Another snapshot from the trip: serving, learning, and building together.",
   },
-  
-  {
-    src: "/projects/WhatsApp Image 2024-10-10 at 10.14.03.jpeg",
-    alt: "Trip 5 (2024) — trip moment",
-    caption:
-      " The addition to Mt Moriah academy in Kumasi. ",
-  },
   {
     src: "/projects/WhatsApp Image 2025-03-29 at 11.42.00.jpeg",
     alt: "Trip 5 (2024) — continued story moment",
@@ -269,7 +268,7 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/IMG_8696.jpeg",
     alt: "Trip 5 (2024) — school progress",
     caption:
-      "Another view of the environment we’re working to strengthen through education and support.",
+      "fans bought to be fixed in classrooms.",
   },
   {
     src: "/projects/IMG_8787 2.JPG.jpeg",
