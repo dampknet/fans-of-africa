@@ -192,6 +192,7 @@ export default function ContactPage() {
                <ContactCard
                 title="Contact"
                 items={[
+                  "Laura Orrell, President",
                   "Fans of Africa, Inc., a US 501(c)3",
                   "Mike Leinneweber — Director of Outreach Services",
                   "Jerry Graeber — Treasurer",

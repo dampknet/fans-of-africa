@@ -37,13 +37,13 @@ const PROJECTS_2016 = [
       "2016 — Our second trip to Abuesi. Amara, Forest, and Amanda joined us, pictured with the chief, Mike, and Pastor John.",
   },
   {
-    src: "/projects/2016-tree-planting.jpg",
-    alt: "Planting a tree in Ghana",
+    src: "/projects/amara.jpg",
+    alt: "Tree Planting",
     caption:
       "Tree Planting by Amara.",
   },
   {
-    src: "/projects/amara.jpeg",
+    src: "/projects/2016-tree-planting.jpeg",
     alt: "Planting a tree in Ghana",
     caption:
       "A planted tree, a marker of faith and time. We’ll later show it grown to highlight the progression of years.",
@@ -205,8 +205,8 @@ const PROJECTS_TRIP4_2022 = [
 /** Trip 5 (2024) — 21 photos (as you said) */
 const PROJECTS_TRIP5_2024 = [
   {
-    src: "/projects/fifth trip 2024. first time to Senya Beraku. from there went to Bibiani and Kumasi. Before and after pictures of schools we worked on. Hired Isaac and Joseph to work for us. first cohort of teachers from S.jpeg",
-    alt: "Trip 5 (2024) — first time to SB, then Bibiani and Kumasi",
+    src: "/projects/trip5.jpeg",
+    alt: "Trip 5 (2024) — first time to Senya Beraku, then Bibiani and Kumasi",
     caption:
       "Trip 5 (2024) — First time to SB, then Bibiani and Kumasi. Before-and-after progress as projects moved forward with local support.",
   },
@@ -214,7 +214,7 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/Grace’s new addition recognizing our work..jpeg",
     alt: "Trip 5 (2024) — recognition addition",
     caption:
-      "A new addition recognizing the work and partnership built over the years.",
+      " Kandit school with the finished addition.",
   },
   {
     src: "/projects/Michael Mokarzel and our Kumasi hosts.jpeg",
@@ -238,13 +238,13 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/WhatsApp Image 2024-10-10 at 09.12.55.jpeg",
     alt: "Trip 5 (2024) — trip moment",
     caption:
-      "A captured moment from our continued work and partnership in Ghana.",
+      " the finished addition to Kandit",
   },
   {
     src: "/projects/WhatsApp Image 2024-10-10 at 10.14.03.jpeg",
     alt: "Trip 5 (2024) — trip moment",
     caption:
-      "Progress looks like people showing up consistently, year after year.",
+      " The addition to Mt Moriah academy in Kumasi. ",
   },
   {
     src: "/projects/WhatsApp Image 2025-03-29 at 11.42.00.jpeg",
@@ -280,7 +280,7 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/IMG_8826.jpeg",
     alt: "Trip 5 (2024) — project work",
     caption:
-      "A hands-on moment from the work during the visit.",
+      "Rewarding one of our Teaching Interventionist.",
   },
   {
     src: "/projects/IMG_8907.jpeg",
@@ -298,13 +298,7 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/IMG_8952.JPG.jpeg",
     alt: "Trip 5 (2024) — project work",
     caption:
-      "A snapshot from the field: building, supporting, and strengthening school communities.",
-  },
-  {
-    src: "/projects/IMG_8956.JPG.jpeg",
-    alt: "Trip 5 (2024) — project work",
-    caption:
-      "The work includes planning, tools, teamwork, and steady follow-through.",
+      " These were the 45 teachers trained in Senya Beraku",
   },
   {
     src: "/projects/IMG_8967.JPG.jpeg",
