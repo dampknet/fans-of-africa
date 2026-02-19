@@ -339,7 +339,13 @@ function PhotoGrid({
           className="overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm"
         >
           <div className="relative h-48 w-full sm:h-56">
-            <Image src={it.src} alt={it.alt} fill className="object-cover" />
+            <Image
+          src={it.src}
+          alt={it.alt}
+          fill
+          className="object-contain"
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 20vw"
+        />
           </div>
           <figcaption className="p-4 text-sm leading-relaxed text-neutral-700">
             {it.caption}
