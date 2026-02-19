@@ -153,11 +153,9 @@ export default function AboutPage() {
             <Person
               img="/team/emmanuel.jpg"
               name="Nana Awere Quame (Emmanuel Agyapong)"
-              role="Teaching Interventionist"
+              role="Teaching Staff"
               reverse
-              text={`Emmanuel was born on a Saturday; thus, according to Ghana tradition, he was given the name Kwame for his name, according to the day he was born. He was also named after a Chief whose name was Nana Awere Kwame Nti. Emmanuel is the third of four children, and his parents are Cecilia Yaa Achiaah and Charles Kwabena Asiama. His father was a traditional musician, and Emmanuel has the gift of a beautiful singing voice. Emmanuel attended the University of Cape Coast from 2019 to 2021 and earned a degree in Basic Education. He worked on his diploma in Basic Education from 2015 to 2018.
-
-Emmanuel states that “I am a teacher because I have a passion for it. Just like insects are attracted to flowers, children are attracted to me, irrespective of any weakness. I become worried if I see children with reading difficulties, and I am challenged to fix and repair the breakdown. Sometimes it seems impossible, but I am motivated by the fact that the word impossible is also read as I’m possible with just an addition of a punctuation mark. I am happy that I have become the punctuation mark for children with reading difficulties. Since my eyes are healthy, my whole body is full of light”.`}
+              text={`Emmanuel was born on a Saturday; thus, according to Ghana tradition, he was given the name Kwame for his name, according to the day he was born. He was also named after a Chief whose name was Nana Awere Kwame Nti. Emmanuel is the fourth and last born of four children, and his parents are Cecilia Yaa Achiaah and Charles Kwabena Mensah Asiamah. His father was a traditional musician, and Emmanuel has the gift of a beautiful singing voice. Emmanuel attended the University of Cape Coast. He pursued Diploma in Basic  Education from 2015 -18 further attained a Degree 2019-2021 (English and Social studies). He persue a switch program in 2024 and attain another Degree 2024-2025 (English and Twi). Currently, He is  Pursuing Masters in Education (English Language) 2025- 2026. Emmanuel states that “I am a teacher because I have a passion for it. Just like insects are attracted to flowers, children are attracted to me, irrespective of any weakness. I become worried if I see children with reading difficulties, and I am challenged to fix and repair the breakdown. Sometimes it seems impossible, but I am motivated by the fact that the word impossible is also read as I’m possible with just an addition of a punctuation mark. I am happy that I have become the punctuation mark for children with reading difficulties. Since my eyes are healthy, my whole body is full of light”.`}
             />
 
             <Person
@@ -255,7 +253,7 @@ function Person({
             src={img}
             alt={name}
             fill
-            className="object-cover object-[50%_30%]"
+            className="object-cover object-[50%_20%]"
           />
         </div>
       </div>

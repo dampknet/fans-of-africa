@@ -10,7 +10,7 @@ export default function Footer() {
             <p className="text-sm font-semibold">Fans of Africa</p>
             <p className="mt-2 text-sm text-neutral-600">
               Supporting communities through education, volunteering, and
-              impact-driven projects. &quot;501(c)3&quot;
+              impact-driven projects. 501(c)3
             </p>
           </div>
 

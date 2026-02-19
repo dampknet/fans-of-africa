@@ -37,7 +37,13 @@ const PROJECTS_2016 = [
       "2016 — Our second trip to Abuesi. Amara, Forest, and Amanda joined us, pictured with the chief, Mike, and Pastor John.",
   },
   {
-    src: "/projects/2016-tree-planting.jpeg",
+    src: "/projects/2016-tree-planting.jpg",
+    alt: "Planting a tree in Ghana",
+    caption:
+      "Tree Planting by Amara.",
+  },
+  {
+    src: "/projects/amara.jpeg",
     alt: "Planting a tree in Ghana",
     caption:
       "A planted tree, a marker of faith and time. We’ll later show it grown to highlight the progression of years.",
@@ -47,6 +53,12 @@ const PROJECTS_2016 = [
     alt: "Construction of school addition",
     caption:
       "Construction of an addition to the school which we paid for. Growth happening step by step.",
+  },
+   {
+    src: "/projects/TICA.jpg",
+    alt: "Construction of school addition",
+    caption:
+      "That's Tica.",
   },
   {
     src: "/projects/2016-young-missionaries.jpeg",
@@ -186,14 +198,14 @@ const PROJECTS_TRIP4_2022 = [
     src: "/projects/Trip 4, 2022. Started at Mt. Moriah Academy in Kumasi. Trained teachers, worked on construction of new building, then went to Bibiani and trained teachers there. Grace Baidoo is the proprietor pi.jpeg",
     alt: "Trip 4 (2022) — Mt. Moriah to Bibiani teacher training",
     caption:
-      "Started at Mt. Moriah Academy (Kumasi), trained teachers, supported construction work, then continued teacher training in Bibiani.",
+      "Started at Kandit standard school in Bibiani and that is Grace Baidoo, the proprietress",
   },
 ];
 
 /** Trip 5 (2024) — 21 photos (as you said) */
 const PROJECTS_TRIP5_2024 = [
   {
-    src: "/projects/fifth trip 2024. first time to SB. from there went to Bibiani and Kumasi. Before and after pictures of schools we worked on. Hired Isaac and Joseph to work for us. first cohort of teachers from S.jpeg",
+    src: "/projects/fifth trip 2024. first time to Senya Beraku. from there went to Bibiani and Kumasi. Before and after pictures of schools we worked on. Hired Isaac and Joseph to work for us. first cohort of teachers from S.jpeg",
     alt: "Trip 5 (2024) — first time to SB, then Bibiani and Kumasi",
     caption:
       "Trip 5 (2024) — First time to SB, then Bibiani and Kumasi. Before-and-after progress as projects moved forward with local support.",
@@ -356,9 +368,16 @@ function PhotoRow({
           key={it.src}
           className="overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm"
         >
-          <div className="relative h-44 w-full md:h-52 xl:h-44">
-            <Image src={it.src} alt={it.alt} fill className="object-cover object-[50%_10%]" />
-          </div>
+         <div className="relative h-44 w-full md:h-52 xl:h-44 bg-neutral-50">
+        <Image
+          src={it.src}
+          alt={it.alt}
+          fill
+          className="object-contain"
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 20vw"
+        />
+      </div>
+
           <figcaption className="p-4 text-sm leading-relaxed text-neutral-700">
             {it.caption}
           </figcaption>

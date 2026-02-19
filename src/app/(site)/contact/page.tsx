@@ -171,35 +171,33 @@ export default function ContactPage() {
             <div className="grid gap-4 sm:grid-cols-2">
               <ContactCard
                 title="Email"
-                value="fansofafrica@gmail.com"
+                items={["fansofafrica@gmail.com"]}
                 hint="Fastest way to reach us"
               />
+
               <ContactCard
-                title="Conatct"
-                value="Fans of Africa, Inc., a US 501(c)3
-
-                      Laura Orrell, President
-
-                      Mike Leinneweber, Director of Outreach Services
-
-                      Jerry Graeber, Treasurer
-
-                      Emmanuel Agyapong, Teaching Staff
-
-                      Johnson Antwi, Board Member
-
-                      575-937-7101"
+                title="Contact"
+                items={[
+                  "Fans of Africa, Inc., a US 501(c)3",
+                  "Mike Leinneweber — Director of Outreach Services",
+                  "Jerry Graeber — Treasurer",
+                  "Emmanuel Agyapong — Teaching Staff",
+                  "Johnson Antwi — Board Member",
+                  "575-937-7101",
+                ]}
                 hint="Mon–Fri, 9am–5pm"
               />
+
               <ContactCard
                 title="Location"
-                value="5306 26th Street, Lubbock Texas 79407"
+                items={["5306 26th Street, Lubbock Texas 79407"]}
                 hint="Serving communities with local partners"
                 wide
               />
+
               <ContactCard
                 title="Socials"
-                value="@fansofafrica"
+                items={["@fansofafrica"]}
                 hint="Follow and share stories"
                 wide
               />
@@ -377,15 +375,18 @@ export default function ContactPage() {
 
 function ContactCard({
   title,
-  value,
+  items,
   hint,
   wide = false,
 }: {
   title: string;
-  value: string;
+  items: string[];
   hint: string;
   wide?: boolean;
 }) {
+  const isPhone = (v: string) => /^\+?\d[\d\s().-]{6,}$/.test(v.trim());
+  const isEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
+
   return (
     <div
       className={[
@@ -396,10 +397,55 @@ function ContactCard({
       <div className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
         {title}
       </div>
-      <div className="mt-2 text-base font-semibold text-neutral-900">
-        {value}
-      </div>
-      <div className="mt-2 text-sm text-neutral-600">{hint}</div>
+
+      <ul className="mt-3 space-y-2 text-sm text-neutral-700">
+        {items.map((v, idx) => {
+          const trimmed = v.trim();
+
+          // clickable email
+          if (isEmail(trimmed)) {
+            return (
+              <li key={idx} className="leading-relaxed">
+                <a
+                  href={`mailto:${trimmed}`}
+                  className="font-semibold text-neutral-900 hover:text-emerald-700"
+                >
+                  {trimmed}
+                </a>
+              </li>
+            );
+          }
+
+          // clickable phone
+          if (isPhone(trimmed)) {
+            const tel = trimmed.replace(/[^\d+]/g, "");
+            return (
+              <li key={idx} className="leading-relaxed">
+                <a
+                  href={`tel:${tel}`}
+                  className="font-semibold text-neutral-900 hover:text-emerald-700"
+                >
+                  {trimmed}
+                </a>
+              </li>
+            );
+          }
+
+          return (
+            <li key={idx} className="leading-relaxed">
+              {idx === 0 ? (
+                <span className="text-base font-semibold text-neutral-900">
+                  {trimmed}
+                </span>
+              ) : (
+                trimmed
+              )}
+            </li>
+          );
+        })}
+      </ul>
+
+      <div className="mt-3 text-sm text-neutral-600">{hint}</div>
     </div>
   );
 }
