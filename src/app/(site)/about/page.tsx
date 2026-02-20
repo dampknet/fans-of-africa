@@ -253,7 +253,7 @@ function Person({
             src={img}
             alt={name}
             fill
-            className="object-cover object-[50%_20%]"
+            className="object-cover object-[50%_47%]"
           />
         </div>
       </div>
