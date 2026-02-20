@@ -244,13 +244,13 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/WhatsApp Image 2024-07-18 at 17.08.50.jpeg",
     alt: "Trip 5 (2024) — trip moment",
     caption:
-      "A moment from the trip highlighting community, teamwork, and progress.",
+      "One of the dilapidated educational structures in Senya Beraku",
   },
   {
     src: "/projects/WhatsApp Image 2024-07-18 at 17.08.55.jpeg",
     alt: "Trip 5 (2024) — trip moment",
     caption:
-      "Another snapshot from the trip: serving, learning, and building together.",
+      "What we saw underupon arrival. An operating educational structure at star field school.",
   },
   {
     src: "/projects/WhatsApp Image 2025-03-29 at 11.42.00.jpeg",
