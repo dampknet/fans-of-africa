@@ -44,7 +44,7 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold">Get in touch</p>
             <p className="mt-2 text-sm text-neutral-600">
-              Email: info@fansofafrica.net
+              Email: info@fansofafrica.com
             </p>
             <p className="text-sm text-neutral-600">Location:</p>
             <p className="text-sm text-neutral-600">5306 26th Street</p>
