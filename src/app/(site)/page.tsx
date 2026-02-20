@@ -118,7 +118,7 @@ export default function HomePage() {
               <Stat to={80} suffix="+" label="Active volunteers" />
               <CommunityStat
                 label="Communities served"
-                value="Kumasi • Abuesi • Senya Bereku • Bibiani"
+                value="Kumasi • Abuesi • Senya Beraku • Bibiani"
               />
             </div>
           </div>
