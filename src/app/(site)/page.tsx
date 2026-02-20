@@ -83,7 +83,7 @@ export default function HomePage() {
                 <div className="relative aspect-[4/3] w-full">
                   <Image
                     src="/projects/Trip 4, 2022. Started at Mt. Moriah Academy in Kumasi. Trained teachers, worked on construction of new building, then went to Bibiani and trained teachers there. Grace Baidoo is the proprietor pi.jpeg"
-                    alt="Children supported by Fans of Africa"
+                    alt=" Fans of Africa"
                     fill
                     className="object-cover"
                     priority
