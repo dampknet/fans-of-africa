@@ -425,6 +425,41 @@ export default function ProjectsPage() {
                 >
                   View ongoing projects
                 </a>
+                <a
+                  href="#trip-1"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Trip 1
+                </a>
+
+                <a
+                  href="#trip-2"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Trip 2
+                </a>
+
+                <a
+                  href="#trip-3"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Trip 3
+                </a>
+
+                <a
+                  href="#trip-4"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Trip 4
+                </a>
+
+                <a
+                  href="#trip-5"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Trip 5
+                </a>
+
               </div>
 
               <div className="mt-7 flex flex-wrap gap-2">
@@ -488,7 +523,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* 2015 */}
-        <div className="mx-auto mt-8 max-w-6xl">
+        <div id="trip-1" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Trip 1 — 2015 (Where it began)
@@ -511,7 +546,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* 2016 */}
-        <div className="mx-auto mt-8 max-w-6xl">
+        <div id="trip-2" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Trip 2 — 2016 (Returning with purpose)
@@ -528,7 +563,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* 2017 */}
-        <div className="mx-auto mt-8 max-w-6xl">
+        <div id="trip-3" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Trip 3 — 2017 (Expanding impact)
@@ -550,7 +585,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* Trip 4 — 2022 */}
-        <div className="mx-auto mt-8 max-w-6xl">
+        <div id="trip-4" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Trip 4 — 2022 (Infrastructure Development)
@@ -570,7 +605,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* Trip 5 — 2024 */}
-        <div className="mx-auto mt-8 max-w-6xl">
+        <div id="trip-5" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Trip 5 — 2024 (From Growth to Generational Impact)
