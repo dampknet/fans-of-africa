@@ -23,6 +23,7 @@ function isEmailValid(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
 }
 
+
 export default function ContactPage() {
   const [form, setForm] = useState<FormState>(INITIAL);
   const [errors, setErrors] = useState<FieldErrors>({});
@@ -555,7 +556,3 @@ function Field({
     </div>
   );
 }
-export const metadata = {
-  title: "About | Fans of Africa",
-  description: "Learn about Fans of Africa and our work in Ghana.",
-};
