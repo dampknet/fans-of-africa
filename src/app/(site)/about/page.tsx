@@ -274,3 +274,7 @@ function Person({
     </div>
   );
 }
+export const metadata = {
+  title: "About | Fans of Africa",
+  description: "Learn about Fans of Africa and our work in Ghana.",
+};
