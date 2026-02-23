@@ -22,7 +22,10 @@ const INITIAL: FormState = {
 function isEmailValid(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
 }
-
+export const metadata = {
+  title: "Contact | Fans of Africa",
+  description: "Learn about Fans of Africa and our work in Ghana.",
+};
 
 export default function ContactPage() {
   const [form, setForm] = useState<FormState>(INITIAL);

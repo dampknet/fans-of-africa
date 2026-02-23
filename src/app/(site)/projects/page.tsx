@@ -745,6 +745,6 @@ export default function ProjectsPage() {
   );
 }
 export const metadata = {
-  title: "About | Fans of Africa",
+  title: "Projects | Fans of Africa",
   description: "Learn about Fans of Africa and our work in Ghana.",
 };
