@@ -511,6 +511,28 @@ export default function ProjectsPage() {
         </div>
       </section>
 
+                <div className="sticky top-0 z-40 border-b border-neutral-200 bg-white/95 backdrop-blur">
+          <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6 lg:px-8">
+            <div className="flex flex-wrap gap-2">
+              {[
+                { label: "Trip 1", id: "trip-1" },
+                { label: "Trip 2", id: "trip-2" },
+                { label: "Trip 3", id: "trip-3" },
+                { label: "Trip 4", id: "trip-4" },
+                { label: "Trip 5", id: "trip-5" },
+                { label: "Ongoing", id: "ongoing-projects" },
+              ].map((t) => (
+                <a
+                  key={t.id}
+                  href={`#${t.id}`}
+                  className="rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-800 transition hover:border-emerald-400 hover:bg-emerald-50 hover:text-emerald-800"
+                >
+                  {t.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
       {/* TIMELINE STORY */}
       <Section title="">
         <div className="mx-auto max-w-6xl text-center">
