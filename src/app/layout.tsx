@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Footer from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/next"
+import BackToTop from "@/components/back-to-top";
 
 
 export const metadata = {
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <BackToTop />
       </body>
     </html>
   );
