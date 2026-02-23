@@ -328,11 +328,11 @@ export default function ContactPage() {
                 </p>
 
                 <div className="mt-4 grid gap-4">
-                  <MiniCard
+                  {/* <MiniCard
                     title="Volunteering"
                     desc="Want to serve on a trip or remotely?"
                     href="/volunteers"
-                  />
+                  /> */}
                   <MiniCard
                     title="Projects"
                     desc="See what we’re building and supporting."

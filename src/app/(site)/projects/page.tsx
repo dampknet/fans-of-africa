@@ -413,12 +413,12 @@ export default function ProjectsPage() {
               </p>
 
               <div className="mt-7 flex flex-wrap gap-3">
-                <Link
+                {/* <Link
                   href="/volunteers"
                   className="inline-flex items-center justify-center rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
                 >
                   Volunteer with us
-                </Link>
+                </Link> */}
                 <a
                   href="#ongoing-projects"
                   className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-5 py-2.5 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
@@ -633,10 +633,10 @@ export default function ProjectsPage() {
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-700" />
                   Donate toward scholarships, supplies, and construction.
                 </li>
-                <li className="flex gap-3">
+                {/* <li className="flex gap-3">
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-700" />
                   Volunteer your time, skills, or services.
-                </li>
+                </li> */}
                 <li className="flex gap-3">
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-700" />
                   Join a mission trip to help with physical work.
@@ -644,12 +644,12 @@ export default function ProjectsPage() {
               </ul>
 
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link
+                {/* <Link
                   href="/volunteers"
                   className="inline-flex items-center justify-center rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
                 >
                   Volunteer
-                </Link>
+                </Link> */}
                 <a
                   href="/donate"
                   className="inline-flex items-center justify-center rounded-xl border border-emerald-200 bg-white px-4 py-2.5 text-sm font-semibold text-emerald-900 shadow-sm transition hover:bg-emerald-50"

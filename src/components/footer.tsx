@@ -26,9 +26,9 @@ export default function Footer() {
               <Link href="/projects" className="hover:text-neutral-950">
                 Projects
               </Link>
-              <Link href="/volunteers" className="hover:text-neutral-950">
+              {/* <Link href="/volunteers" className="hover:text-neutral-950">
                 Volunteers
-              </Link>
+              </Link> */}
               <Link href="/contact" className="hover:text-neutral-950">
                 Contact
               </Link>

@@ -42,10 +42,10 @@ export default function HomePage() {
               {/* Keep it clean: 2 CTAs max */}
               <div className="mt-7 flex flex-wrap gap-3">
                 <Link
-                  href="/volunteers"
+                  href="/projects"
                   className="inline-flex items-center justify-center rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
                 >
-                  Become a volunteer
+                  View Our Projects
                 </Link>
 
                 <a
@@ -115,7 +115,7 @@ export default function HomePage() {
               <Stat to={3} suffix="+" label="Projects delivered" />
               <Stat to={1000} suffix="+" label="Students reached" />
               <Stat to={400} suffix="+" label="Teachers Trained" />
-              <Stat to={80} suffix="+" label="Active volunteers" />
+              {/* <Stat to={80} suffix="+" label="Active volunteers" /> */}
               <CommunityStat
                 label="Communities served"
                 value="Kumasi • Abuesi • Senya Beraku • Bibiani"
@@ -239,12 +239,12 @@ export default function HomePage() {
                 >
                   Go to Donate page
                 </Link>
-                <Link
+                {/* <Link
                   href="/volunteers"
                   className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/15"
                 >
                   Become a volunteer
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
