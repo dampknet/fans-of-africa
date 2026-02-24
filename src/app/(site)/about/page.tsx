@@ -184,7 +184,7 @@ export default function AboutPage() {
               name="Isaac Nkrumah"
               role="Teaching Interventionist"
               reverse
-              text={`Isaac Nkrumah is an experienced and devoted educator who has taught at Kandit Standard School for over 12 years. He holds a Diploma in Special Education from the University of Education, Winneba, specializing in Community-Based Rehabilitation and Disability Studies, and a Diploma in Education from the University of Buckingham International. He is a trained Phono-Graphix instructor and a Reading Specialist with Fans of Africa. His teaching philosophy is centered on supporting learners with reading difficulties, building their confidence, and ensuring that every child, regardless of ability, develops strong literacy skills and becomes a valued member of the community.
+              text={`Isaac Nkrumah is an experienced and devoted educator who has taught at Kandit Standard School for over 12 years. He holds a Diploma in Special Education from the University of Education, Winneba, specializing in Community-Based Rehabilitation and Disability Studies, and a Diploma in Education from the University of Buckingham International. His teaching philosophy is centered on supporting learners with reading difficulties, building their confidence, and ensuring that every child, regardless of ability, develops strong literacy skills and becomes a valued member of the community.
 Isaac believes that with the right instructional approach and encouragement, every child can become a confident reader.`}
             />
 
@@ -193,7 +193,7 @@ Isaac believes that with the right instructional approach and encouragement, eve
               name="Joseph Baidoo"
               role="Teaching Interventionist"
               reverse={false}
-              text={`Joseph Baidoo is a passionate and dedicated educator with nine years of teaching experience at Kandit Standard School. He holds a Bachelor of Education (B.Ed.) degree from the University of Cape Coast (UCC), where he specialized in English Language and Twi (Akan). Joseph is a trained Phono-Graphix instructor and a reading specialist with Fans of Africa, focusing on supporting learners, particularly those who struggle with reading and spelling, to build confidence and strong foundational skills. His teaching philosophy is that every child can learn when given the right support, encouragement, and teaching approach. He strives to create a classroom environment where learners feel valued, motivated, and empowered to achieve academic success.`}
+              text={`Joseph Baidoo is a passionate and dedicated educator with nine years of teaching experience at Kandit Standard School. He holds a Bachelor of Education (B.Ed.) degree from the University of Cape Coast (UCC), where he specialized in English Language and Twi (Akan). Joseph is a trained reading specialist with Fans of Africa, focusing on supporting learners, particularly those who struggle with reading and spelling, to build confidence and strong foundational skills. His teaching philosophy is that every child can learn when given the right support, encouragement, and teaching approach. He strives to create a classroom environment where learners feel valued, motivated, and empowered to achieve academic success.`}
             />
 
           </div>

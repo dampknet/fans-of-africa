@@ -194,21 +194,24 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-8 grid gap-4 lg:grid-cols-3">
+         <div className="mt-8 grid gap-4 lg:grid-cols-3">
             <Project
-              tag="Education"
-              title="Back-to-School Drive"
-              desc="Supplies and mentorship to support learning outcomes."
+              href="/projects#trip-1"
+              tag="Trip 1 • 2015"
+              title="Where it began"
+              desc="Our first visit to Abuesi—this trip shaped the vision that later became TICA."
             />
             <Project
-              tag="Outreach"
-              title="Community Outreach"
-              desc="Volunteer-led support programs for families and youth."
+              href="/projects#trip-2"
+              tag="Trip 2 • 2016"
+              title="Returning with purpose"
+              desc="Teacher training, deeper partnerships, and visible growth through practical support."
             />
             <Project
-              tag="Support"
-              title="School Essentials"
-              desc="Helping schools with materials and basic resources."
+              href="/projects#trip-3"
+              tag="Trip 3 • 2017"
+              title="Expanding impact"
+              desc="Broader reach—teacher training in Bibiani and continued growth in community partnerships."
             />
           </div>
         </div>
@@ -302,10 +305,12 @@ function Project({
   tag,
   title,
   desc,
+  href = "/projects",
 }: {
   tag: string;
   title: string;
   desc: string;
+  href?: string;
 }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
@@ -315,7 +320,7 @@ function Project({
       <h3 className="mt-4 text-base font-semibold text-neutral-900">{title}</h3>
       <p className="mt-2 text-sm text-neutral-700">{desc}</p>
       <Link
-        href="/projects"
+        href={href}
         className="mt-4 inline-flex text-sm font-semibold text-emerald-700 hover:text-emerald-800"
       >
         Learn more →

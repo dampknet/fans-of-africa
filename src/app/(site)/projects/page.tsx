@@ -589,7 +589,7 @@ export default function ProjectsPage() {
         <div id="trip-4" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
-              Trip 4 — 2022 (Infrastructure Development)
+              Trip 4 — 2022 (Broadening Our Reach)
             </p>
 
             <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
