@@ -329,19 +329,24 @@ function SchoolStat({
   value: string[];
 }) {
   return (
-    <div className="rounded-2xl border border-neutral-200 bg-white/85 p-5 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-      <div className="grid gap-2 sm:grid-cols-2">
-        {value.map((v) => (
+    <div className="rounded-2xl border border-neutral-200 bg-white/85 p-6 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+      
+      {/* Heading */}
+      <h3 className="text-base font-semibold text-neutral-900">
+        {label}
+      </h3>
+
+      {/* School List */}
+      <div className="mt-4 grid gap-2 sm:grid-cols-2">
+        {value.map((school) => (
           <div
-            key={v}
+            key={school}
             className="rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-800"
           >
-            {v}
+            {school}
           </div>
         ))}
       </div>
-
-      <div className="mt-3 text-sm text-neutral-700">{label}</div>
     </div>
   );
 }
