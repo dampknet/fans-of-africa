@@ -74,7 +74,7 @@ const PROJECTS_2016 = [
   },
 ];
 
-// ✅ Added (Trip 3 / 2017) — filenames match exactly what you stored
+// (Trip 3 / 2017) — filenames match exactly what you stored
 const PROJECTS_2017 = [
   {
     src: "/projects/project 3.jpeg",
@@ -284,6 +284,58 @@ const PROJECTS_TRIP5_2024 = [
   },
 ];
 
+/** Trip 6 (2025) — 8 photos  */
+const PROJECTS_TRIP6_2025 = [
+   {
+    src: "/projects/triptogh.jpg",
+    alt: "Trip 6 (2025) — Heading off for the next trip to Ghana.",
+    caption:
+      "Trip 6 (2025) — Heading off for the next trip to Ghana.",
+  },
+   {
+    src: "/projects/assessment.jpg",
+    alt: "Trip 6 (2025) — Mike and Laura making an assessment of the schools requesting assistance.",
+    caption:
+      "Mike and Laura making an assessment of the schools requesting assistance.",
+  },
+   {
+    src: "/projects/interventionists.jpg",
+    alt: "Trip 6 (2025) — Joseph and Isaac, two of our new interventionists, ready to get started with training.",
+    caption:
+      "Joseph and Isaac, two of our new interventionists, ready to get started with training.",
+  },
+  {
+    src: "/projects/senya.jpg",
+    alt: "Trip 6 (2025) — Senya Academy, the oldest school in the region, needs a complete new roof.",
+    caption:
+      "Senya Academy, the oldest school in the region, needs a complete new roof.",
+  },
+  {
+    src: "/projects/faithful.jpg",
+    alt: "Trip 6 (2025) — Faithful Adonai also needs a completely new roof.",
+    caption:
+      "Faithful Adonai also needs a completely new roof.",
+  },
+  {
+    src: "/projects/48.jpg",
+    alt: "Trip 6 (2025) — Another 48 teachers in Senya Beraku.",
+    caption:
+      "Another 48 teachers in Senya Beraku.",
+  },
+  {
+    src: "/projects/roofcompleted.jpg",
+    alt: "Trip 6 (2025) — Roof is completed on Faithful Adonia.",
+    caption:
+      "Roof is completed on Faithful Adonia.",
+  },
+   {
+    src: "/projects/newroofdedicated.jpg",
+    alt: "Trip 6 (2025) — The new roof at Senya Academy is dedicated to Dominic, a seven year old who died in the roof collapse. We met with his parents and brother.",
+    caption:
+      "The new roof at Senya Academy is dedicated to Dominic, a seven year old who died in the roof collapse. We met with his parents and brother.",
+  },
+];
+
 function PhotoGrid({
   items,
 }: {
@@ -416,6 +468,13 @@ export default function ProjectsPage() {
                   className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
                 >
                   Trip 5
+                </a>
+
+                 <a
+                  href="#trip-6"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Trip 6
                 </a>
 
               </div>
@@ -579,6 +638,23 @@ export default function ProjectsPage() {
 
             <div className="mt-6">
               <PhotoRow items={PROJECTS_TRIP5_2024} />
+            </div>
+          </div>
+        </div>
+
+         {/* Trip 6 — 2025 */}
+        <div id="trip-6" className="mx-auto mt-8 max-w-6xl">
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
+              Trip 6 — 2025 ()
+            </p>
+
+            <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
+              Trip 6 
+            </p>
+
+            <div className="mt-6">
+              <PhotoRow items={PROJECTS_TRIP6_2025} />
             </div>
           </div>
         </div>

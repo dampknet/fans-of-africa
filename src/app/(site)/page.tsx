@@ -132,7 +132,7 @@ export default function HomePage() {
                   "Prestige Flourishing School — Senya Beraku",
                   "Star Field School — Senya Beraku",
                   "Senya Academy — Senya Beraku",
-                  "Faithful Adonai School — Senya Beraku",
+                  "Faithful Adonai Preparatory School — Senya Beraku",
                   "Solid Rockstars School — Senya Beraku",
                   "Christ the Redeemer School — Senya Beraku",
                   "Cardinal Turkson Catholic Basic — Senya Beraku",
