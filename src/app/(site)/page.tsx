@@ -276,9 +276,19 @@ function Stat({
 }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white/85 p-5 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-      <div className="text-2xl font-semibold  text-neutral-700">
-        <CountUp to={to} suffix={suffix ?? ""} />
+      
+      <div className="flex items-baseline gap-2">
+        <span className="text-2xl font-semibold text-neutral-900">
+          <CountUp to={to} />
+        </span>
+
+        {suffix && (
+          <span className="text-sm font-medium text-neutral-500">
+            {suffix}
+          </span>
+        )}
       </div>
+
       <div className="mt-1 text-sm text-neutral-700">{label}</div>
     </div>
   );
