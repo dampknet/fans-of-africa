@@ -643,7 +643,7 @@ export default function ProjectsPage() {
         </div>
 
          {/* Trip 6 — 2025 */}
-        <div id="trip-6"className="mt-6">
+        <div id="trip-6" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Trip 6 — 2025 ()
