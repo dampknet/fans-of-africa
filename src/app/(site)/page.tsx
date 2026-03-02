@@ -126,7 +126,7 @@ export default function HomePage() {
                 label="Schools Impacted"
                 value={[
                   "Mt. Moriah Academy — Kumasi",
-                  "Candit Standard School — Bibiani",
+                  "Kandit Standard School — Bibiani",
                   "Terry International Christian Academy (T.I.C.A.) — Abuesi",
                   "Brilliant Future Academy — Senya Beraku",
                   "Prestige Flourishing School — Senya Beraku",
