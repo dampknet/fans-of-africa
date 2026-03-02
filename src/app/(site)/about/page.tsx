@@ -10,7 +10,7 @@ export default function AboutPage() {
           src="/projects/e65ce5dc-ca83-4bb0-ac99-223ca26053d6.jpg.jpeg"
           alt="Fans of Africa mission"
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
           priority
         />
         <div className="absolute inset-0 bg-black/45" />
