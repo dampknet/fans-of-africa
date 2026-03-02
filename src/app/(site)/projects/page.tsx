@@ -7,7 +7,7 @@ const PROJECTS_2015 = [
     src: "/projects/2015-orphanage-walk.jpeg",
     alt: "2015 visit to the orphanage in Abuesi",
     caption:
-      "2015 — Our first visit to the orphanage in Abuesi, Ghana. Seeing the needs up close changed everything.",
+      "2015 — Up close change everything, leading to our motto “the eye leads the heart”.",
   },
   {
     src: "/projects/2015-school-building.jpeg",
@@ -36,12 +36,12 @@ const PROJECTS_2016 = [
     caption:
       "2016 — Our second trip to Abuesi. Amara, Forest, and Amanda joined us, pictured with the chief, Mike, and Pastor John.",
   },
-  {
-    src: "/projects/amara.jpg",
-    alt: "Tree Planting",
-    caption:
-      "Tree Planting by Amara.",
-  },
+  // {
+  //   src: "/projects/amara.jpg",
+  //   alt: "Tree Planting",
+  //   caption:
+  //     "Tree Planting by Amara.",
+  // },
   {
     src: "/projects/2016-tree-planting.jpeg",
     alt: "Planting a tree in Ghana",
@@ -52,14 +52,14 @@ const PROJECTS_2016 = [
     src: "/projects/2016-construction-addition.jpeg",
     alt: "Construction of school addition",
     caption:
-      "Construction of an addition to the school which we paid for. Growth happening step by step.",
+      " We continue to support the building of additional class rooms.",
   },
-   {
-    src: "/projects/TICA.jpg",
-    alt: "Construction of school addition",
-    caption:
-      "That's Tica.",
-  },
+  //  {
+  //   src: "/projects/TICA.jpg",
+  //   alt: "Construction of school addition",
+  //   caption:
+  //     "That's Tica.",
+  // },
   {
     src: "/projects/2016-young-missionaries.jpeg",
     alt: "Young missionaries on the trip",
@@ -80,25 +80,25 @@ const PROJECTS_2017 = [
     src: "/projects/project 3.jpeg",
     alt: "Large group gathering at Assemblies of God Ghana",
     caption:
-      "2017 — Trip three. We gathered with the Assemblies of God community, strengthening partnerships and deepening relationships.",
+      "2017 — We trained 70 pictures from TICA and other school from the community.",
+  },
+   {
+    src: "/projects/TICA growing with more students 2017.jpeg",
+    alt: "TICA growth in 2017",
+    caption:
+      "TICA continues growing in enrollment and structure, the vision becoming reality.",
   },
   {
     src: "/projects/Bibaini teachers.jpeg",
     alt: "Teacher training in Bibiani",
     caption:
-      "Teacher training in Bibiani, equipping educators with tools, curriculum support, and encouragement.",
+      "We traveled to Bibiani and trained 100 teachers from 3 private schools.",
   },
   {
     src: "/projects/Teacher training in Bibiani, 100 teachers.jpeg",
     alt: "Training 100 teachers in Bibiani",
      caption:
-      "Over 100 teachers trained, expanding impact beyond one school into the wider district.",
-  },
-  {
-    src: "/projects/TICA growing with more students 2017.jpeg",
-    alt: "TICA growth in 2017",
-    caption:
-      "TICA continues growing in enrollment and structure, the vision becoming reality.",
+      " All of the teachers were soo grateful to receive one week training.",
   },
   {
     src: "/projects/We hired Emmanuel to work for us.jpeg",
@@ -111,34 +111,22 @@ const PROJECTS_2017 = [
 /** Trip 4 (2022) — 15 photos (as you said) */
 const PROJECTS_TRIP4_2022 = [
   {
-    src: "/projects/d84fd7fc-3703-461c-aeea-c6224a61f61a.jpg.jpeg",
-    alt: "Trip 4 (2022) — project moment",
-    caption:
-      "Trip 4 (2022) — Hands-on work during our visit as we supported school needs alongside local partners.",
-  },
-  {
     src: "/projects/IMG_0626.jpeg",
     alt: "Trip 4 (2022) — school environment",
     caption:
-      "A look at one of the school environments we visited and supported.",
+      "Trip 4 (2022) — The students graciously welcomes us to the school with their presentation.",
   },
   {
     src: "/projects/IMG_0643.jpeg",
     alt: "Trip 4 (2022) — facilities and services board",
     caption:
-      "Facilities and services on display at the school, a reminder that learning thrives with good support systems.",
+      "Students welcome ceremony in traditional dress.",
   },
   {
-    src: "/projects/IMG_5058.jpeg",
-    alt: "Trip 4 (2022) — before/needs assessment",
+    src: "/projects/d84fd7fc-3703-461c-aeea-c6224a61f61a.jpg.jpeg",
+    alt: "Trip 4 (2022) — project moment",
     caption:
-      "Seeing needs clearly helps us plan the right support and improvements.",
-  },
-  {
-    src: "/projects/IMG_5068.jpeg",
-    alt: "Trip 4 (2022) — team moment",
-    caption:
-      "Volunteers and friends connected through service and shared purpose.",
+      "Mt. Moriah Academy before construction was started.",
   },
   {
     src: "/projects/IMG_5075.jpeg",
@@ -146,183 +134,153 @@ const PROJECTS_TRIP4_2022 = [
     caption:
       "Supplies and materials gathered to help move work forward.",
   },
+   {
+    src: "/projects/IMG_5241.jpeg",
+    alt: "Trip 4 (2022) — project support item",
+    caption:
+      "All of the blockes used were made by hand and all the work is done by hand tools.",
+  },
+  {
+    src: "/projects/IMG_5068.jpeg",
+    alt: "Trip 4 (2022) — team moment",
+    caption:
+      "Teachers with Laura at the completion of the training wearing fans of africa T-shirts.",
+  },
+  {
+    src: "/projects/IMG_5058.jpeg",
+    alt: "Trip 4 (2022) — before/needs assessment",
+    caption:
+      "Teachers from Mt. Moriah Academy with Emmanuel during teacher training.",
+  },
   {
     src: "/projects/IMG_5089.jpeg",
     alt: "Trip 4 (2022) — recognition at the school",
     caption:
-      "A meaningful moment of recognition and encouragement during the trip.",
+      "Mike and Laura with our hosts Patric and Vivian Coffie.",
   },
-  {
-    src: "/projects/IMG_5241.jpeg",
-    alt: "Trip 4 (2022) — project support item",
+   {
+    src: "/projects/f2487315-d361-46de-9db1-1d74494fb703.jpg.jpeg",
+    alt: "Trip 4 (2022) — community moment",
     caption:
-      "Supporting classrooms with practical resources that improve learning conditions.",
+      "A school bus purchaced for Mt. Moriah by one of our partners.",
   },
   {
     src: "/projects/IMG_5262.jpeg",
     alt: "Trip 4 (2022) — project support item",
     caption:
-      "Continued support and logistics that help projects run smoothly.",
+      "The Proprietress, Grace Baidoo and Laura with a group of teachers at the training.",
   },
-  {
-    src: "/projects/2e3f2e96-3a43-48e8-ad76-17527a2b70bb.jpg.jpeg",
-    alt: "Trip 4 (2022) — school space / improvement area",
-    caption:
-      "One of the key spaces we looked at for improvement and support.",
-  },
-  {
-    src: "/projects/f2487315-d361-46de-9db1-1d74494fb703.jpg.jpeg",
-    alt: "Trip 4 (2022) — community moment",
-    caption:
-      "Community and partnership are at the center of everything we do.",
-  },
-  {
-    src: "/projects/IMG_4954.JPG.jpeg",
-    alt: "Trip 4 (2022) — classroom or school activity",
-    caption:
-      "Encouraging learning through presence, support, and partnership.",
-  },
-  {
+   {
     src: "/projects/IMG_5275.JPG.jpeg",
     alt: "Trip 4 (2022) — learning space",
     caption:
-      "A snapshot of a learning space we visited during the trip.",
+      "Laura training teachers at kandit school.",
   },
+   {
+    src: "/projects/Trip 4, 2022. Started at Mt. Moriah Academy in Kumasi. Trained teachers, worked on construction of new building, then went to Bibiani and trained teachers there. Grace Baidoo is the proprietor pi.jpeg",
+    alt: "Trip 4 (2022) — Mt. Moriah to Bibiani teacher training",
+    caption:
+      "Emmanuel, Grace, Mike, Laura and Jakit infront of Kandit school.",
+  },
+  // {
+  //   src: "/projects/2e3f2e96-3a43-48e8-ad76-17527a2b70bb.jpg.jpeg",
+  //   alt: "Trip 4 (2022) — school space / improvement area",
+  //   caption:
+  //     "One of the key spaces we looked at for improvement and support.",
+  // },
+  // {
+  //   src: "/projects/IMG_4954.JPG.jpeg",
+  //   alt: "Trip 4 (2022) — classroom or school activity",
+  //   caption:
+  //     "Encouraging learning through presence, support, and partnership.",
+  // },
   {
     src: "/projects/This is a picture of the ongoing progress at TICA in Abuesi. Notice the growth of the trees..jpeg",
     alt: "TICA progress over time (tree growth)",
     caption:
-      "Ongoing — Progress at TICA in Abuesi. The growth over time is visible, even in small details like the trees.",
-  },
-  {
-    src: "/projects/Trip 4, 2022. Started at Mt. Moriah Academy in Kumasi. Trained teachers, worked on construction of new building, then went to Bibiani and trained teachers there. Grace Baidoo is the proprietor pi.jpeg",
-    alt: "Trip 4 (2022) — Mt. Moriah to Bibiani teacher training",
-    caption:
-      "Started at Kandit standard school in Bibiani and that is Grace Baidoo, the proprietress",
+      "TICA continues to grow and notice the growth of trees planted in 2016.",
   },
 ];
 
 /** Trip 5 (2024) — 21 photos (as you said) */
 const PROJECTS_TRIP5_2024 = [
-  {
-    src: "/projects/trip5.jpeg",
-    alt: "Trip 5 (2024) — first time to Senya Beraku, then Bibiani and Kumasi",
+   {
+    src: "/projects/IMG_8675.jpeg",
+    alt: "Trip 5 (2024) — school progress",
     caption:
-      "Trip 5 (2024) — First time to Senya Beraku, then Bibiani and Kumasi. Before-and-after progress as projects moved forward with local support.",
+      "Trip 5 (2024) — Mike and Laura in Lubbock Texas departing for their trip.",
   },
-  {
+   {
+    src: "/projects/WhatsApp Image 2024-07-18 at 17.08.55.jpeg",
+    alt: "Trip 5 (2024) — trip moment",
+    caption:
+      "What we saw upon arrival. An operating educational structure at star field school.",
+  },
+    {
     src: "/projects/IMG_1351.jpeg",
     alt: "Trip 5 (2024) — school/community scene",
     caption:
-      "Before Renovations.",
+      "The outhouse at Brilliant Future Academy before the renovations.",
+  },
+   {
+    src: "/projects/IMG_8967.JPG.jpeg",
+    alt: "Trip 5 (2024) — project work",
+    caption:
+      "Laura Emmanuel and Samuel travelling between schools.",
+  },
+   {
+    src: "/projects/IMG_8933.JPG.jpeg",
+    alt: "Trip 5 (2024) — project work",
+    caption:
+      "Our team, Mike, Laura, Samuel and Yaw picked up Michael at the airport.",
+  },
+   {
+    src: "/projects/e65ce5dc-ca83-4bb0-ac99-223ca26053d6.jpg.jpeg",
+    alt: "Trip 5 (2024) — group photo",
+    caption:
+      "Welcoming ceremony at Prestige Flourishing school.",
   },
   {
+    src: "/projects/WhatsApp Image 2025-03-29 at 11.42.00.jpeg",
+    alt: "Trip 5 (2024) — continued story moment",
+    caption:
+      " This is is our first learning cohorts in senya Beraku",
+  },
+   {
+    src: "/projects/IMG_8907.jpeg",
+    alt: "Trip 5 (2024) — project work",
+    caption:
+      "An appreciation ceremony at Prestige Flourishing school.",
+  },
+    {
     src: "/projects/WhatsApp Image 2024-10-10 at 10.14.03.jpeg",
     alt: "Trip 5 (2024) — trip moment",
     caption:
       " The addition to Mt Moriah academy in Kumasi. ",
   },
-  {
-    src: "/projects/Grace’s new addition recognizing our work..jpeg",
-    alt: "Trip 5 (2024) — recognition addition",
-    caption:
-      " Kandit school with the finished addition.",
-  },
    {
-    src: "/projects/WhatsApp Image 2024-10-10 at 09.12.55.jpeg",
-    alt: "Trip 5 (2024) — trip moment",
-    caption:
-      " the finished addition to Kandit",
-  },
-  {
     src: "/projects/Michael Mokarzel and our Kumasi hosts.jpeg",
     alt: "Trip 5 (2024) — Michael and Kumasi hosts",
     caption:
       "Michael Mokarzel with our Kumasi hosts — friendship and partnership make the work possible.",
   },
   {
-    src: "/projects/WhatsApp Image 2024-07-18 at 17.08.50.jpeg",
-    alt: "Trip 5 (2024) — trip moment",
-    caption:
-      "One of the dilapidated educational structures in Senya Beraku",
-  },
-  {
-    src: "/projects/WhatsApp Image 2024-07-18 at 17.08.55.jpeg",
-    alt: "Trip 5 (2024) — trip moment",
-    caption:
-      "What we saw underupon arrival. An operating educational structure at star field school.",
-  },
-  {
-    src: "/projects/WhatsApp Image 2025-03-29 at 11.42.00.jpeg",
-    alt: "Trip 5 (2024) — continued story moment",
-    caption:
-      "A meaningful follow-up moment connected to the ongoing story and impact.",
-  },
-  {
-    src: "/projects/IMG_8675.jpeg",
-    alt: "Trip 5 (2024) — school progress",
-    caption:
-      "Evidence of growth and improvement as projects continue over time.",
-  },
-  {
-    src: "/projects/IMG_8696.jpeg",
-    alt: "Trip 5 (2024) — school progress",
-    caption:
-      "fans bought to be fixed in classrooms.",
-  },
-  {
-    src: "/projects/IMG_8787 2.JPG.jpeg",
-    alt: "Trip 5 (2024) — team and partners",
-    caption:
-      "Volunteers and partners together, relationships are part of the mission.",
-  },
-  {
-    src: "/projects/IMG_8826.jpeg",
-    alt: "Trip 5 (2024) — project work",
-    caption:
-      "Rewarding one of our Teaching Interventionist.",
-  },
-  {
-    src: "/projects/IMG_8907.jpeg",
-    alt: "Trip 5 (2024) — project work",
-    caption:
-      "Practical work that supports better learning conditions and school growth.",
-  },
-  {
-    src: "/projects/IMG_8933.JPG.jpeg",
-    alt: "Trip 5 (2024) — project work",
-    caption:
-      "Continuing the work, step by step, with local partnership and shared responsibility.",
-  },
-  {
     src: "/projects/IMG_8952.JPG.jpeg",
     alt: "Trip 5 (2024) — project work",
     caption:
-      " These were the 45 teachers trained in Senya Beraku",
+      "These were the 45 teachers trained in Senya Beraku",
   },
-  {
-    src: "/projects/IMG_8967.JPG.jpeg",
-    alt: "Trip 5 (2024) — project work",
+   {
+    src: "/projects/IMG_8787 2.JPG.jpeg",
+    alt: "Trip 5 (2024) — team and partners",
     caption:
-      "Another moment captured during the visit as projects moved forward.",
-  },
-  {
-    src: "/projects/a0d4a097-d119-4440-af2d-984767a38f46.jpg.jpeg",
-    alt: "Trip 5 (2024) — project moment",
-    caption:
-      "A project moment showing the practical side of service and improvement work.",
-  },
-  {
-    src: "/projects/e65ce5dc-ca83-4bb0-ac99-223ca26053d6.jpg.jpeg",
-    alt: "Trip 5 (2024) — group photo",
-    caption:
-      "A group moment celebrating partnership, culture, and shared progress.",
+      "The 3rd floor of Kandit school dedicated to Fans of Africa.",
   },
   {
     src: "/projects/PHOTO-2025-02-08-09-27-57.jpg.jpeg",
     alt: "Trip 5 (2024) — school courtyard / campus view",
     caption:
-      "A wider view of the school environment — spaces where learning and growth happen daily.",
+      "Brilliant Future Academy at the completion of the renovation.",
   },
 ];
 

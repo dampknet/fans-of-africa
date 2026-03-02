@@ -35,7 +35,7 @@ export default function HomePage() {
 
               <p className="mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
                 Fans of Africa is a non-profit, Christian organization supporting
-                education, medical care, and economic empowerment across Western
+                education, infrastructure, and economic empowerment across Western
                 Africa — with clear updates and real outcomes.
               </p>
 
@@ -112,13 +112,17 @@ export default function HomePage() {
           {/* Stats — FULL WIDTH + straight line on desktop */}
           <div className="mt-10 pb-10">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <Stat to={3} suffix="+" label="Projects delivered" />
-              <Stat to={1000} suffix="+" label="Students reached" />
-              <Stat to={400} suffix="+" label="Teachers Trained" />
+              <Stat to={3} suffix="And Counting" label="Projects delivered" />
+              <Stat to={2000} suffix="And Counting" label="Students reached" />
+              <Stat to={400} suffix="And Counting" label="Teachers Trained" />
               {/* <Stat to={80} suffix="+" label="Active volunteers" /> */}
               <CommunityStat
                 label="Communities served"
                 value="Kumasi • Abuesi • Senya Beraku • Bibiani"
+              />
+               <SchoolStat
+                label="Schools Imparted"
+                value="Mt. Moriah Academy - Kumasi • Candit standard school - Bibiani • Terry International Christian Academy T.I.C.A. - Abuasi  "
               />
             </div>
           </div>
@@ -276,6 +280,22 @@ function Stat({
   );
 }
 function CommunityStat({
+  label,
+  value,
+}: {
+  label: string;
+  value: string;
+}) {
+  return (
+    <div className="rounded-2xl border border-neutral-200 bg-white/85 p-5 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+      <div className="text-base font-semibold text-neutral-900 leading-relaxed">
+        {value}
+      </div>
+      <div className="mt-2 text-sm text-neutral-700">{label}</div>
+    </div>
+  );
+}
+function SchoolStat({
   label,
   value,
 }: {
