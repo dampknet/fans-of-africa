@@ -112,7 +112,7 @@ export default function HomePage() {
           {/* Stats — FULL WIDTH + straight line on desktop */}
           <div className="mt-10 pb-10">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <Stat to={3} suffix=" and counting" label="Projects delivered" />
+              {/* <Stat to={3} suffix=" and counting" label="Projects delivered" /> */}
               <Stat to={2000} suffix=" and counting" label="Students reached" />
               <Stat to={400} suffix=" and counting" label="Teachers Trained" />
               {/* <Stat to={80} suffix="+" label="Active volunteers" /> */}
@@ -276,7 +276,7 @@ function Stat({
 }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white/85 p-5 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-      <div className="text-2xl font-semibold text-neutral-900">
+      <div className="text-2xl font-semibold  text-neutral-700">
         <CountUp to={to} suffix={suffix ?? ""} />
       </div>
       <div className="mt-1 text-sm text-neutral-700">{label}</div>
