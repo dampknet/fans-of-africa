@@ -290,7 +290,7 @@ const PROJECTS_TRIP6_2025 = [
     src: "/projects/triptogh.jpg",
     alt: "Trip 6 (2025) — Heading off for the next trip to Ghana.",
     caption:
-      "Trip 6 (2025) — Heading off for the next trip to Ghana.",
+      "Trip 6 (2025/2026) — Heading off for the next trip to Ghana.",
   },
    {
     src: "/projects/assessment.jpg",
@@ -676,7 +676,7 @@ export default function ProjectsPage() {
         <div id="trip-6" className="mx-auto mt-8 max-w-6xl">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
-              Trip 6 — 2025 ()
+              Trip 6 — 2025/2026 (Sustainable Growth)
             </p>
 
             <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
