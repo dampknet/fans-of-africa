@@ -7,7 +7,7 @@ export default function AboutPage() {
       {/* HERO IMAGE */}
       <div className="relative h-[320px] w-full overflow-hidden">
         <Image
-          src="/about-hero.jpg"
+          src="/projects/e65ce5dc-ca83-4bb0-ac99-223ca26053d6.jpg.jpeg"
           alt="Fans of Africa mission"
           fill
           className="object-cover"
