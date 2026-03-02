@@ -112,17 +112,21 @@ export default function HomePage() {
           {/* Stats — FULL WIDTH + straight line on desktop */}
           <div className="mt-10 pb-10">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <Stat to={3} suffix=" And Counting" label="Projects delivered" />
-              <Stat to={2000} suffix=" And Counting" label="Students reached" />
-              <Stat to={400} suffix=" And Counting" label="Teachers Trained" />
+              <Stat to={3} suffix=" and counting" label="Projects delivered" />
+              <Stat to={2000} suffix=" and counting" label="Students reached" />
+              <Stat to={400} suffix=" and counting" label="Teachers Trained" />
               {/* <Stat to={80} suffix="+" label="Active volunteers" /> */}
               <CommunityStat
                 label="Communities served"
                 value="Kumasi • Abuesi • Senya Beraku • Bibiani"
               />
-               <SchoolStat
-                label="Schools Imparted"
-                value="Mt. Moriah Academy - Kumasi • Candit standard school - Bibiani • Terry International Christian Academy T.I.C.A. - Abuasi  "
+              <SchoolStat
+                label="Schools Impacted"
+                value={[
+                  "Mt. Moriah Academy — Kumasi",
+                  "Candit Standard School — Bibiani",
+                  "Terry International Christian Academy (T.I.C.A.) — Abuesi",
+                ]}
               />
             </div>
           </div>
@@ -300,14 +304,21 @@ function SchoolStat({
   value,
 }: {
   label: string;
-  value: string;
+  value: string[];
 }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white/85 p-5 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-      <div className="text-base font-semibold text-neutral-900 leading-relaxed">
-        {value}
-      </div>
-      <div className="mt-2 text-sm text-neutral-700">{label}</div>
+      
+      <ul className="space-y-2 text-sm font-medium text-neutral-900">
+        {value.map((school, index) => (
+          <li key={index} className="flex gap-2">
+            <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-600" />
+            <span>{school}</span>
+          </li>
+        ))}
+      </ul>
+
+      <div className="mt-4 text-sm text-neutral-600">{label}</div>
     </div>
   );
 }
