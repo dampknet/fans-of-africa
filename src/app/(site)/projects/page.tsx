@@ -108,7 +108,7 @@ const PROJECTS_2017 = [
   },
 ];
 
-/** Trip 4 (2022) — 15 photos (as you said) */
+/** Trip 4 (2022) — 15 photos */
 const PROJECTS_TRIP4_2022 = [
   {
     src: "/projects/IMG_0626.jpeg",
@@ -202,7 +202,7 @@ const PROJECTS_TRIP4_2022 = [
   },
 ];
 
-/** Trip 5 (2024) — 21 photos (as you said) */
+/** Trip 5 (2024) — 21 photos  */
 const PROJECTS_TRIP5_2024 = [
    {
     src: "/projects/IMG_8675.jpeg",
@@ -333,6 +333,36 @@ const PROJECTS_TRIP6_2025 = [
     alt: "Trip 6 (2025) — The new roof at Senya Academy is dedicated to Dominic, a seven year old who died in the roof collapse. We met with his parents and brother.",
     caption:
       "The new roof at Senya Academy is dedicated to Dominic, a seven year old who died in the roof collapse. We met with his parents and brother.",
+  },
+  {
+    src: "/projects/secondcohort.jpg",
+    alt: "Trip 6 (2025) — The second cohort of teacher trainers were selected. Two from each of five schools. Each school received a new laptop.",
+    caption:
+      "The second cohort of teacher trainers were selected. Two from each of five schools. Each school received a new laptop.",
+  },
+   {
+    src: "/projects/playground.jpg",
+    alt: "Trip 6 (2025) — One of two playgrounds constructed on school grounds. These are the only playgrounds in the whole region.",
+    caption:
+      "One of two playgrounds constructed on school grounds. These are the only playgrounds in the whole region.",
+  },
+  {
+    src: "/projects/polytank.jpg",
+    alt: "Trip 6 (2025) — Three schools now have clean water.",
+    caption:
+      "Three schools now have clean water.",
+  },
+    {
+    src: "/projects/academy.jpg",
+    alt: "Trip 6 (2025) — The new roof, lights, ceiling fans, doors and windows on Senya Academy.",
+    caption:
+      "The new roof, lights, ceiling fans, doors and windows on Senya Academy.",
+  },
+   {
+    src: "/projects/birthday.jpg",
+    alt: "Trip 6 (2025) — Mike celebrates another birthday with his friends in Ghana.",
+    caption:
+      "Mike celebrates another birthday with his friends in Ghana.",
   },
 ];
 
@@ -650,7 +680,9 @@ export default function ProjectsPage() {
             </p>
 
             <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
-              Trip 6 
+              Trip 6, moving toward self-sustainability with more schools repaired, 
+              more teachers trained and energy and morale of
+               our friends continuing to grow.
             </p>
 
             <div className="mt-6">
