@@ -120,12 +120,24 @@ export default function HomePage() {
                 label="Communities served"
                 value="Kumasi • Abuesi • Senya Beraku • Bibiani"
               />
+              </div>
+              <div className="mt-4">
               <SchoolStat
                 label="Schools Impacted"
                 value={[
                   "Mt. Moriah Academy — Kumasi",
-                  "Kandit Standard School — Bibiani",
+                  "Candit Standard School — Bibiani",
                   "Terry International Christian Academy (T.I.C.A.) — Abuesi",
+                  "Brilliant Future Academy — Senya Beraku",
+                  "Prestige Flourishing School — Senya Beraku",
+                  "Star Field School — Senya Beraku",
+                  "Senya Academy — Senya Beraku",
+                  "Faithful Adonai School — Senya Beraku",
+                  "Solid Rockstars School — Senya Beraku",
+                  "Christ the Redeemer School — Senya Beraku",
+                  "Cardinal Turkson Catholic Basic — Senya Beraku",
+                  "Day Star School — Senya Beraku",
+                  "Hosanna International School — Senya Beraku",
                 ]}
               />
             </div>
@@ -318,17 +330,18 @@ function SchoolStat({
 }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white/85 p-5 shadow-sm backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-      
-      <ul className="space-y-2 text-sm font-medium text-neutral-900">
-        {value.map((school, index) => (
-          <li key={index} className="flex gap-2">
-            <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-600" />
-            <span>{school}</span>
-          </li>
+      <div className="grid gap-2 sm:grid-cols-2">
+        {value.map((v) => (
+          <div
+            key={v}
+            className="rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-800"
+          >
+            {v}
+          </div>
         ))}
-      </ul>
+      </div>
 
-      <div className="mt-4 text-sm text-neutral-600">{label}</div>
+      <div className="mt-3 text-sm text-neutral-700">{label}</div>
     </div>
   );
 }
