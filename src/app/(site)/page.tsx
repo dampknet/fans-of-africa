@@ -112,9 +112,9 @@ export default function HomePage() {
           {/* Stats — FULL WIDTH + straight line on desktop */}
           <div className="mt-10 pb-10">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <Stat to={3} suffix="And Counting" label="Projects delivered" />
-              <Stat to={2000} suffix="And Counting" label="Students reached" />
-              <Stat to={400} suffix="And Counting" label="Teachers Trained" />
+              <Stat to={3} suffix=" And Counting" label="Projects delivered" />
+              <Stat to={2000} suffix=" And Counting" label="Students reached" />
+              <Stat to={400} suffix=" And Counting" label="Teachers Trained" />
               {/* <Stat to={80} suffix="+" label="Active volunteers" /> */}
               <CommunityStat
                 label="Communities served"

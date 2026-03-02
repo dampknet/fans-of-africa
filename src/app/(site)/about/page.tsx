@@ -121,11 +121,11 @@ export default function AboutPage() {
 
           <div className="space-y-10">
             <Person
-              img="/team/jerry.jpg"
-              name="Jerry Graeber"
+              img="/team/michael.jpg"
+              name="Michael"
               role="Treasurer"
               reverse={false}
-              text={`The Bible tells us to use our abilities to serve each other. Jerry has over 30 years of experience in the automotive industry and has used this experience to serve at his church in the Pit Stop and Trailer Ministries. The Pit Stop Ministry maintains and repairs cars for single mothers and the elderly. The Trailer ministry pulls a trailer filled with clothing and food to satellite churches to distribute these goods for those in need. Jerry met Mike Leinneweber several years ago in a Home Depot parking lot. As it turns out, they had gone to high school together in Albuquerque, New Mexico. Mike shared his Ghana mission work with Jerry, and Jerry knew that he wanted to be a part of this ministry. He lives in Rio Rancho, New Mexico. One of Jerry’s favorite verses in the Bible comes from Matthew 6: 19-21: “Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieve do not break in and steal. For where your treasure is, there your heart will be also.”`}
+              text={`I am originally from Austin, Texas. I moved to Ruidoso, New Mexico in 2016 after I retired from my job with the state of Texas. That is when I met Mike Leinneweber. We quickly started up a friendship. Mike often talked about his mission work around the world, and especially in Ghana because he found the work there so fulfilling. During his stories about his mission work, he occasionally mentioned that I should consider going with him and his wife Laura on one of their trips to Ghana. After about a decade of hearing about his passion for this work, I decided to make the journey. This was one of the best decisions I have ever made. The trip was a life-changing experience. Fans of Africa is the real deal. My favorite Bible verse comes from Luke chapter 6: “But love your enemies, and do good, and lend, expecting nothing in return, and your reward will be great. Be merciful, even as your Father is merciful.”`}
             />
 
             <Person
