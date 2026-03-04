@@ -7,7 +7,7 @@ const PROJECTS_2015 = [
     src: "/projects/2015-orphanage-walk.jpeg",
     alt: "2015 visit to the orphanage in Abuesi",
     caption:
-      "2015 — Up close change everything, leading to our motto “the eye leads the heart”.",
+      "2015 — Seeing everything in person changes you. That’s why our motto is “the eye leads the heart”..",
   },
   {
     src: "/projects/2015-school-building.jpeg",
@@ -80,7 +80,7 @@ const PROJECTS_2017 = [
     src: "/projects/project 3.jpeg",
     alt: "Large group gathering at Assemblies of God Ghana",
     caption:
-      "2017 — We trained 70 pictures from TICA and other school from the community.",
+      "2017 — We trained 70 teachers from TICA and other school from the community.",
   },
    {
     src: "/projects/TICA growing with more students 2017.jpeg",
@@ -98,7 +98,7 @@ const PROJECTS_2017 = [
     src: "/projects/Teacher training in Bibiani, 100 teachers.jpeg",
     alt: "Training 100 teachers in Bibiani",
      caption:
-      " All of the teachers were soo grateful to receive one week training.",
+      " All of the teachers were so grateful to receive one week of free literacy training. We even provided lunch.",
   },
   {
     src: "/projects/We hired Emmanuel to work for us.jpeg",
@@ -114,13 +114,13 @@ const PROJECTS_TRIP4_2022 = [
     src: "/projects/IMG_0626.jpeg",
     alt: "Trip 4 (2022) — school environment",
     caption:
-      "Trip 4 (2022) — The students graciously welcomes us to the school with their presentation.",
+      "Trip 4 (2022) — The students graciously welcomed us to the school with their presentation.",
   },
   {
     src: "/projects/IMG_0643.jpeg",
     alt: "Trip 4 (2022) — facilities and services board",
     caption:
-      "Students welcome ceremony in traditional dress.",
+      "Student's welcome ceremony in traditional dress.",
   },
   {
     src: "/projects/d84fd7fc-3703-461c-aeea-c6224a61f61a.jpg.jpeg",
@@ -138,13 +138,13 @@ const PROJECTS_TRIP4_2022 = [
     src: "/projects/IMG_5241.jpeg",
     alt: "Trip 4 (2022) — project support item",
     caption:
-      "All of the blockes used were made by hand and all the work is done by hand tools.",
+      "All of the blocks used were made by hand and all the work is done by hand tools.",
   },
   {
     src: "/projects/IMG_5068.jpeg",
     alt: "Trip 4 (2022) — team moment",
     caption:
-      "Teachers with Laura at the completion of the training wearing fans of africa T-shirts.",
+      "Teachers with Laura at the completion of the training wearing Fans of Africa T-shirts.",
   },
   {
     src: "/projects/IMG_5058.jpeg",
@@ -156,13 +156,13 @@ const PROJECTS_TRIP4_2022 = [
     src: "/projects/IMG_5089.jpeg",
     alt: "Trip 4 (2022) — recognition at the school",
     caption:
-      "Mike and Laura with our hosts Patric and Vivian Coffie.",
+      "Mike and Laura with our hosts Patrick and Vivian Coffie.",
   },
    {
     src: "/projects/f2487315-d361-46de-9db1-1d74494fb703.jpg.jpeg",
     alt: "Trip 4 (2022) — community moment",
     caption:
-      "A school bus purchaced for Mt. Moriah by one of our partners.",
+      "A school bus purchased for Mt. Moriah by one of our partners.",
   },
   {
     src: "/projects/IMG_5262.jpeg",
@@ -174,13 +174,13 @@ const PROJECTS_TRIP4_2022 = [
     src: "/projects/IMG_5275.JPG.jpeg",
     alt: "Trip 4 (2022) — learning space",
     caption:
-      "Laura training teachers at kandit school.",
+      "Laura training teachers at Kandit school.",
   },
    {
     src: "/projects/Trip 4, 2022. Started at Mt. Moriah Academy in Kumasi. Trained teachers, worked on construction of new building, then went to Bibiani and trained teachers there. Grace Baidoo is the proprietor pi.jpeg",
     alt: "Trip 4 (2022) — Mt. Moriah to Bibiani teacher training",
     caption:
-      "Emmanuel, Grace, Mike, Laura and Jakit infront of Kandit school.",
+      "Emmanuel, Grace, Mike, Laura and Jakit in front of Kandit school.",
   },
   // {
   //   src: "/projects/2e3f2e96-3a43-48e8-ad76-17527a2b70bb.jpg.jpeg",
@@ -198,7 +198,7 @@ const PROJECTS_TRIP4_2022 = [
     src: "/projects/This is a picture of the ongoing progress at TICA in Abuesi. Notice the growth of the trees..jpeg",
     alt: "TICA progress over time (tree growth)",
     caption:
-      "TICA continues to grow and notice the growth of trees planted in 2016.",
+      "TICA continues to grow. Notice the growth of trees planted",
   },
 ];
 
@@ -214,7 +214,7 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/WhatsApp Image 2024-07-18 at 17.08.55.jpeg",
     alt: "Trip 5 (2024) — trip moment",
     caption:
-      "What we saw upon arrival. An operating educational structure at star field school.",
+      "What we saw upon arrival. An operating educational structure at Star Field School.",
   },
     {
     src: "/projects/IMG_1351.jpeg",
@@ -226,13 +226,13 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/IMG_8967.JPG.jpeg",
     alt: "Trip 5 (2024) — project work",
     caption:
-      "Laura Emmanuel and Samuel travelling between schools.",
+      "Laura, Samuel and Emmanuel travelling between schools.",
   },
    {
     src: "/projects/IMG_8933.JPG.jpeg",
     alt: "Trip 5 (2024) — project work",
     caption:
-      "Our team, Mike, Laura, Samuel and Yaw picked up Michael at the airport.",
+      "Our team, Mike, Laura, Samuel and Yaw picking Michael at the airport.",
   },
    {
     src: "/projects/e65ce5dc-ca83-4bb0-ac99-223ca26053d6.jpg.jpeg",
@@ -244,7 +244,7 @@ const PROJECTS_TRIP5_2024 = [
     src: "/projects/WhatsApp Image 2025-03-29 at 11.42.00.jpeg",
     alt: "Trip 5 (2024) — continued story moment",
     caption:
-      " This is is our first learning cohorts in senya Beraku",
+      " This is is our first learning Cohort in Senya Beraku",
   },
    {
     src: "/projects/IMG_8907.jpeg",
@@ -320,7 +320,7 @@ const PROJECTS_TRIP6_2025 = [
     src: "/projects/48.jpg",
     alt: "Trip 6 (2025) — Another 48 teachers in Senya Beraku.",
     caption:
-      "Another 48 teachers in Senya Beraku.",
+      "Another 48 teachers have been trained in Senya Beraku",
   },
   {
     src: "/projects/roofcompleted.jpg",
@@ -660,7 +660,7 @@ export default function ProjectsPage() {
             </p>
 
             <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
-              Trip 5 was our first time to SB. From there we went to Bibiani and
+              Trip 5 was our first time to Senya Beraku. From there we went to Bibiani and
               Kumasi, capturing before-and-after progress of schools we worked
               on, strengthening partnerships, and continuing teacher training as
               resources allowed.
@@ -710,18 +710,22 @@ export default function ProjectsPage() {
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8 lg:col-span-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
-                TICA — our first school in Ghana
+                 Teacher Training.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
-                Our first school in Ghana, TICA, which started with 8 students
-                now has 370 students from preschool through grade 6. Twenty
-                eight staff are employed by the school, including 22 teachers
-                and 6 support staff. Currently, six new classrooms are being
-                constructed, and recently TICA received the award of the best
-                private school in the district, and the entire staff and student
-                body were provided with a free lunch. TICA continues to benefit
-                from assistance through our non-profit for student scholarships,
-                ongoing construction efforts, and supplies and materials.
+                Prior to our arrival in Ghana, our partners Samuel and Emmanuel carefully vet 
+                potential schools and teachers with which to work. We try to select schools that 
+                are functioning on their own land, not leased land, and to select a representative 
+                sample of teachers from various schools in the region. Once selected, the teachers 
+                are asked to attend a week long training while on break from their respective schools, 
+                which they are paid to attend. The training is designed as an overview to the on-line 
+                course that is provided through a partner in South Africa. Teachers who attend the training
+                and who show an interest in furthering their education and training are selected to be 
+                enrolled in the on-line course, which generally takes at least a year to complete.
+                Fans of Africa provides each enrolling school with a new laptop computer and on-site
+                coaching and assistance from one of our itinerant teachers throughout the duration of 
+                the course, as well as paying the fee for the course and materials. There is an ongoing 
+                need for funds to help defray the cost of this training program.
               </p>
             </div>
 
@@ -733,16 +737,16 @@ export default function ProjectsPage() {
               <ul className="mt-4 space-y-3 text-sm text-neutral-800 sm:text-base">
                 <li className="flex gap-3">
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-700" />
-                  Donate toward scholarships, supplies, and construction.
+                  Donate toward the cost of Training Program.
                 </li>
                 {/* <li className="flex gap-3">
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-700" />
                   Volunteer your time, skills, or services.
                 </li> */}
-                <li className="flex gap-3">
+                {/* <li className="flex gap-3">
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-emerald-700" />
                   Join a mission trip to help with physical work.
-                </li>
+                </li> */}
               </ul>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -758,6 +762,44 @@ export default function ProjectsPage() {
                 >
                   Donate
                 </a>
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8 lg:col-span-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
+                Desks and school supplies
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-neutral-700 sm:text-base">
+                Many of the schools are in great need of new desks because 
+                typically their enrollment increases once the school is involved with the 
+                enhancement efforts provided by Fans of Africa. These desks are made on-site 
+                by local carpenters, thus keeping resources within the communities, and the materials 
+                are locally sourced. The desks are well constructed and can seat two to three students 
+                per desk. Additionally, many of the classrooms are in need of white boards and markers, 
+                which must be replenished. Many of the classrooms have been using their block walls 
+                painted with black paint to serve as blackboards.
+              </p>
+
+              <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                  <p className="text-sm font-semibold text-neutral-900">
+                    1) Donate towards New Desks
+                  </p>
+                  <p className="mt-2 text-sm text-neutral-700">
+                    You may choose to make a monetary donation for the purchase of
+                    Desks.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                  <p className="text-sm font-semibold text-neutral-900">
+                    2) Donate towards White Boards and Markers.
+                  </p>
+                  <p className="mt-2 text-sm text-neutral-700">
+                    You may choose to make a monetary donation for the purchase
+                    of White Boards and Markers.
+                  </p>
+                </div>
               </div>
             </div>
 

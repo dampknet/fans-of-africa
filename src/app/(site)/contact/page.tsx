@@ -198,7 +198,7 @@ export default function ContactPage() {
                 "Fans of Africa, Inc., a US 501(c)3",
                 "Laura Orrell — President",
                 "Mike Leinneweber — Director of Outreach Services",
-                "Jerry Graeber — Treasurer",
+                "Micheal Mokarzel — Treasurer",
                 "Emmanuel Agyapong — Teaching Staff",
                 "Johnson Antwi — Board Member",
                 "575-937-7101",

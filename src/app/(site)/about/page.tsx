@@ -122,7 +122,7 @@ export default function AboutPage() {
           <div className="space-y-10">
             <Person
               img="/team/michael.jpg"
-              name="Michael Mokarzel"
+              name="Micheal Mokarzel"
               role="Treasurer"
               reverse={false}
               text={`I am originally from Austin, Texas. I moved to Ruidoso, New Mexico in 2016 after I retired from my job with the state of Texas. That is when I met Mike Leinneweber. We quickly started up a friendship. Mike often talked about his mission work around the world, and especially in Ghana because he found the work there so fulfilling. During his stories about his mission work, he occasionally mentioned that I should consider going with him and his wife Laura on one of their trips to Ghana. After about a decade of hearing about his passion for this work, I decided to make the journey. This was one of the best decisions I have ever made. The trip was a life-changing experience. Fans of Africa is the real deal. My favorite Bible verse comes from Luke chapter 6: “But love your enemies, and do good, and lend, expecting nothing in return, and your reward will be great. Be merciful, even as your Father is merciful.”`}

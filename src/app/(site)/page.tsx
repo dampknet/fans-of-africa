@@ -127,7 +127,7 @@ export default function HomePage() {
                 value={[
                   "Mt. Moriah Academy — Kumasi",
                   "Kandit Standard School — Bibiani",
-                  "Terry International Christian Academy (T.I.C.A.) — Abuesi",
+                  "Terri International Christian Academy (T.I.C.A.) — Abuesi",
                   "Brilliant Future Academy — Senya Beraku",
                   "Prestige Flourishing School — Senya Beraku",
                   "Star Field School — Senya Beraku",
