@@ -177,11 +177,11 @@ export default function ContactPage() {
                 hint="Fastest way to reach us"
               />
 
-              <ContactCard
+              {/* <ContactCard
                 title="Socials"
                 items={["@fansofafrica"]}
                 hint="Follow and share stories"
-              />
+              /> */}
             </div>
 
             {/* Location full width */}
