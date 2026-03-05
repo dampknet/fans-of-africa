@@ -230,7 +230,7 @@ export default function HomePage() {
                 {/* Keeps full image visible, no cropping */}
                 <div className="relative aspect-[4/5] w-full">
                   <Image
-                    src="public\misson-diagram.jpg"
+                    src="/mission-diagram.jpg"
                     alt="Fans of Africa mission diagram"
                     fill
                     className="object-contain"
