@@ -193,6 +193,61 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* MISSION DIAGRAM */}
+      <section className="border-t border-neutral-100 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+          <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+            {/* Left text */}
+            <div className="max-w-xl">
+              <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">
+                Our Mission at a Glance
+              </h2>
+              <p className="mt-2 text-sm text-neutral-700 sm:text-base">
+                This visual shows how our work connects — from teacher training and school
+                development to long-term impact for students and communities.
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  href="/projects"
+                  className="inline-flex items-center justify-center rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
+                >
+                  See the story → 
+                </Link>
+
+                <Link
+                  href="/donate"
+                  className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-5 py-2.5 text-sm font-semibold text-neutral-900 shadow-sm transition hover:bg-neutral-50"
+                >
+                  Support the mission
+                </Link>
+              </div>
+            </div>
+
+            {/* Right image card */}
+            <div className="rounded-3xl border border-neutral-200 bg-white p-4 shadow-sm sm:p-6">
+              <div className="relative w-full overflow-hidden rounded-2xl bg-neutral-50">
+                {/* Keeps full image visible, no cropping */}
+                <div className="relative aspect-[4/5] w-full">
+                  <Image
+                    src="/mission-diagram.jpg"
+                    alt="Fans of Africa mission diagram"
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
+              </div>
+
+              <p className="mt-3 text-xs text-neutral-500">
+                A simple overview of how our education-focused work creates ripple effects over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* FEATURED PROJECTS */}
       <section className="border-t border-neutral-100 bg-neutral-50">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
