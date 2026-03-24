@@ -113,7 +113,7 @@ export default function HomePage() {
           <div className="mt-10 pb-10">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {/* <Stat to={3} suffix=" and counting" label="Projects delivered" /> */}
-              <Stat to={2000} suffix=" and counting" label="Students reached" />
+              <Stat to={20000} suffix=" and counting" label="Students reached" />
               <Stat to={400} suffix=" and counting" label="Teachers Trained" />
               {/* <Stat to={80} suffix="+" label="Active volunteers" /> */}
               <CommunityStat
@@ -138,6 +138,7 @@ export default function HomePage() {
                   "Cardinal Turkson Catholic Basic — Senya Beraku",
                   "Day Star School — Senya Beraku",
                   "Hosanna International School — Senya Beraku",
+                  "ASAWINSO A M/A JHS A. - Asawinso",
                 ]}
               />
             </div>
